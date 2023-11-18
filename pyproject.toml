@@ -1,0 +1,30 @@
+[build-system]
+requires = [
+    "setuptools>=61.0.0",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ankiapp_batch"
+version = "0.0.0"
+description = "ankiapp_batch"
+readme = "README.rst"
+authors = [
+    { name = "Johannes", email = "johannes-programming@posteo.org" },
+]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = []
+dependencies = []
+requires-python = ">=3.11"
+
+[project.license]
+file = "LICENSE.txt"
+
+[project.urls]
+Download = "https://pypi.org/project/ankiapp-batch/#files"
+Source = "https://github.com/johannes-programming/ankiapp_batch"
+
